@@ -1,8 +1,10 @@
 p {
 	font-family: arial, sans-serif;
 	font-size: 0.8em;
+	line-height: 1.6em;
 }
-h1, h2 {
+h1, h2, h3 {
+	font-family: arial, sans-serif;
 	color: #5e03fc;
 }
 
