@@ -8,19 +8,71 @@ body {
 p {
 	font-family: 'Raleway', sans-serif;
 	font-weight:200;
-	font-size: 1.1em;
-	line-height: 1.7em;
+	font-size: 1.2em;
+	line-height: 1.8em;
 	margin: 0 0 1em 0;
 	color: #444444;
 }
+
 h1, h2, h3 {
 	font-family: 'Raleway', sans-serif;
 	font-weight:600;
 	color: #5e03fc;
 }
 
+h1 {
+	font-size: 2.7em;
+}
+
+h2 {
+	font-size: 2.1em;
+}
+
+h3 {
+	font-size: 1.9em;
+}
+
+footer {
+	width: 100%;
+	background: #5e03fc;
+	margin: 2em 0 0 0;
+
+}
+
 .container {
 	max-width: 1100px;
 	padding: 4em 0 0 0;
 	margin: auto;
+}
+
+.texto-footer {
+	color: #ffffff;
+	padding: 0.7em 0.7em;
+	text-align:center;
+}
+
+.texto-footer, a:link, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+@media (max-width: 450px) {
+
+	.container {
+		max-width: 90%;
+		padding: 2em 0 0 0;
+	}
+
+	p {
+		font-size: 1.4em;
+	}
+	
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 1.6em;
+	}
+
 }
